@@ -428,6 +428,7 @@ namespace AccordVideoPlus
 
             aviReader.Dispose();
             aviReader = null;
+            IsPausing = false;
 
             if (PlayingFinished != null)
             {
